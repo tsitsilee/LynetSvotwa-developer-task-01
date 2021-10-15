@@ -5,4 +5,6 @@ fix>>>>
 4. Replaced the unresolved persist() and update() to save().
 5. Added keyword this to make it this.code = code to resolve returning a null String for the 'code' in ResponseCode.java
 6. Inserted constructor based dependency Injection to instantiate the ReportingProcessor bean for the EpayResource class. however autowired could have worked 
+7. Added datasource-mapping tag to resolve the hibernator issue in the electronic-payments-api.iml and electronic-payments-business-iml
+
 
