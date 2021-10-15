@@ -9,3 +9,4 @@ fix>>>>
 8. Replaced the entity/table name from Request to request in SubscriberRequest.java
 9. Changed SOAPBinding.SOAP12HTTP_BINDING to SOAPBinding.SOAP11HTTP_BINDING to support json format
 10. Added path variable that was missing for partnerCode in IntelligentNetworkService file
+11. Added path varibale that was missing for partnerCode in EpayResource file
