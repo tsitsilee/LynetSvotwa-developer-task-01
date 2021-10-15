@@ -7,4 +7,4 @@ fix>>>>
 6. Inserted constructor based dependency Injection to instantiate the ReportingProcessor bean for the EpayResource class. however autowired could have worked 
 7. Added datasource-mapping tag to resolve the hibernator issue in the electronic-payments-api.iml and electronic-payments-business-iml
 8. Replaced the entity/table name from Request to request in SubscriberRequest.java
-
+9. Changed SOAPBinding.SOAP12HTTP_BINDING to SOAPBinding.SOAP11HTTP_BINDING to support json format
