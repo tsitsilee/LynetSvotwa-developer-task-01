@@ -1,0 +1,3 @@
+fix>>>> 
+1. Added keyword static to make it private static final logger LOGGER in MobileNumberUtils
+2. Changed PreInsert to PrePersit as PreInsert could not be resolved.
