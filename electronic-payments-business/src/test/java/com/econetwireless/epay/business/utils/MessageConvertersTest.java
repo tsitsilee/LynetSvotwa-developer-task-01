@@ -249,7 +249,7 @@ public class MessageConvertersTest {
     void mconvertTest13() {
         INCreditResponse inCreditResponse = new INCreditResponse();
         inCreditResponse.setMsisdn("Msisdn");
-        inCreditResponse.setBalance(10.0);
+        inCreditResponse.setBalance(40.7);
         inCreditResponse.setNarrative("Narrative");
         inCreditResponse.setResponseCode("Response Code");
         CreditResponse actualConvertResult = MessageConverters.convert(inCreditResponse);
